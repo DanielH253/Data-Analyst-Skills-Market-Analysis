@@ -1,4 +1,5 @@
--- SQL query to find the top 50 highest paying remote data analyst jobs in the United States, along with the company name and job title.
+/*SQL query to find the top 50 highest paying remote data analyst 
+jobs in the United States, along with the company name and job title.*/
 SELECT
     c.name,
     jpf.job_title_short,

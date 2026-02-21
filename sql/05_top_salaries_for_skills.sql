@@ -1,6 +1,6 @@
 /*This query retrieves the top skills for Data Analyst positions 
 in the United States with an average salary, considering only those 
-skills that are associated with at least 10 job postings*/.
+skills that are associated with at least 10 job postings*/
 SELECT
     ss.skills,
     COUNT(DISTINCT jpf.job_id) AS skill_count,

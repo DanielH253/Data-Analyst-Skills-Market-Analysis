@@ -1,9 +1,9 @@
 /*This query calculates the average salary for Data Analyst 
 positions in the United States that are listed as "Anywhere" 
-in terms of location. It filters out any job postings that 
-do not have a specified average yearly salary and groups the 
-results by the short job title, ordering them from highest to 
-lowest average salary.*/
+in terms of location, ensuring that titles such as Senior Data Analyst 
+are also included. It filters out any job postings that do not have a 
+specified average yearly salary and groups the results by the short job title, 
+ordering them from highest to lowest average salary.*/
 SELECT
     job_title_short,
     ROUND(AVG(salary_year_avg), 2) AS average
